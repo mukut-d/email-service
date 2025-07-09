@@ -69,6 +69,11 @@ class TestFramework {
           throw new Error(`Expected undefined, but got ${actual}`);
         }
       },
+      toBeDefined: () => {
+        if (actual === undefined) {
+          throw new Error(`Expected defined, but got ${actual}`);
+        }
+      },
       toContain: (expected) => {
         if (!actual.includes(expected)) {
           throw new Error(`Expected "${actual}" to contain "${expected}"`);

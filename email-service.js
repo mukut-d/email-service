@@ -174,6 +174,7 @@ class EmailQueue {
 /**
  * Main EmailService class
  */
+
 class EmailService extends EventEmitter {
   constructor(options = {}) {
     super();

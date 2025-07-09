@@ -28,7 +28,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "your-repo-url"
+    "url": "https://github.com/mukut-d/email-service.git"
   },
   "bugs": {
     "url": "https://github.com/mukut-d/email-service.git/issues"
