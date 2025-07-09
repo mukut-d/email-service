@@ -1,0 +1,43 @@
+{
+  "name": "resilient-email-service",
+  "version": "1.0.0",
+  "description": "A robust, production-ready email sending service with retry logic, fallback mechanisms, and comprehensive monitoring",
+  "main": "email-service.js",
+  "scripts": {
+    "test": "node email-service.test.js",
+    "app": "node app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "email",
+    "service",
+    "resilient",
+    "retry",
+    "fallback",
+    "circuit-breaker",
+    "rate-limiting",
+    "idempotency",
+    "monitoring"
+  ],
+  "author": "Mukutmani Das",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  },
+  "bugs": {
+    "url": "https://github.com/mukut-d/email-service.git/issues"
+  },
+  "homepage": "https://github.com/mukut-d/email-service.git#readme",
+  "files": [
+    "email-service.js",
+    "email-service.test.js",
+    "app.js",
+    "README.md"
+  ]
+}
